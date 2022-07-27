@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>
+            ---DINE BOOKING---
+        </title>
+    </head>
+    <body>
+        <center><form name="f" >
+         <br><h3>Dine Booking</h3><br><br>
+         <table>
+         <tr> <td>Name:</td>
+            <td><input type="text" id="vn"></td>
+        </tr>
+         <tr><td> Number of members:</td>
+            <td><input type="number" id="members" max="99"></td>
+        </tr>
+        <tr><td>Contact No: </td>
+            <td><input type="number" id="Contact" min="6666666666" max="9999999999" ></td>
+        </tr>
+         <tr><td>Email:</td>
+            <td><input type="email" id="email"></td>
+        </tr>
+       
+         <tr><td>Type of Food:</td>
+            <td><input type="checkbox" id="Food" value="South Indian" name="SI" checked="checked"> South Indian
+            <input type="checkbox" id="Food" value="North Indian" name="NI"> North Indian
+            <input type="checkbox" id="Food" value="South Indian" name="CHI"> Chinese
+            <input type="checkbox" id="Food" value="Western" name="WEST"> Western
+            </td>
+        </tr>
+       
+         <tr><td>Room Status:</td>
+            <td><input type="radio" id="Room" value="Ac" name="Ac" checked="checked"> Ac
+                <input type="radio" id="Room" value="Non-Ac" name="NAc"> Non-Ac
+            </td>
+        </tr>
+        <tr><td>Venue Preference:</td>
+            <td> <select name="venue" id="venue">
+                <option value="" selected="selected">-Selected-</option>
+                <option value="Arena">Arena</option>
+                <option value="Fiesta">Fiesta</option>
+                <option value="Oasis">Oasis</option>
+                <option value="Magna">Magna</option>
+                <option value="Mythri">Mythri</option>
+                <option value="Vista">Vista</option>
+            </select></td>
+        </tr>
+        <tr><td><input type="submit" id="submit" value="Book"></td>
+            <td><input type="button" id="reset"  value="Reset"></td>
+        </tr>
+        </table>
+        </form>
+    </center>
+    </body>
+</html>
