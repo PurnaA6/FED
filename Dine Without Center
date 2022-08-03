@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>
+            ---DINE BOOKING---
+        </title>
+    </head>
+    <body>
+        <form name="f">
+           
+        <H5 style="text-align:center;"> <br><br><br>Dine Booking<br><br><br><br>
+         Visitor Name:<input type="text" id="vn"><br>
+         Number of members: <input type="number" id="members" max="99"><br>
+         Contact No: <input type="number" id="Contact" min="6666666666" max="9999999999" ><br>
+        Email:<input type="email" id="email"><br>
+       
+            Type of Food:<input type="checkbox" id="Food" value="South Indian" name="SI" checked="checked"> South Indian
+            <input type="checkbox" id="Food" value="North Indian" name="NI"> North Indian
+            <input type="checkbox" id="Food" value="South Indian" name="CHI"> Chinese
+            <input type="checkbox" id="Food" value="Western" name="WEST"> Western
+            <br>
+       
+            Room Status:<input type="radio" id="Room" value="Ac" name="Ac" checked="checked"> Ac
+            <input type="radio" id="Room" value="Non-Ac" name="NAc"> Non-Ac
+            <br>
+        Venue Preference:
+            <select name="venue" id="venue">
+                <option value="" selected="selected">-Selected-</option>
+                <option value="Arena">Arena</option>
+                <option value="Fiesta">Fiesta</option>
+                <option value="Oasis">Oasis</option>
+                <option value="Magna">Magna</option>
+                <option value="Mythri">Mythri</option>
+                <option value="Vista">Vista</option>
+            </select>
+            <br>
+       
+            <input type="submit" id="submit" value="Book">
+            <input type="button" id="reset"  value="Reset">
+        </p>
+        </form>
+    </body>
+</html>
+
