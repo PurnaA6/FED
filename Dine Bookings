@@ -1,86 +1,50 @@
+<html>
+    <head></head>
+    <body style="margin-left:300;margin-right:auto;">
+        <form><h3> ---here pic for  INFY ONLINE GOURMENT SHOP---</h3>
+            <h3>Infy music for you..</h3><br>
+             <audio controls autoplay>
+ 
+  <source src="mymusic.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio> <br><br>
+            <table style="background-color:lightgreen; border-style: groove; border-radius: 1px;">
+                <tr style="border-style: groove;">
+                    <th style="border-style: groove;">venue</th>
+                    <th style="border-style: groove;">vendors</th>
+                </tr>
+                <tr>
+                    <td style="border-style: groove;">Arena</td>
+                    <td style="border-style: groove;"> Amul, Juice junction</td>
+                </tr>
+                <tr>
+                    <td style="border-style: groove;">Vista</td>
+                    <td style="border-style: groove;"> Dominos</td>
+                </tr>
+                <tr>
+                    <td style="border-style: groove;">Maitri </td>
+                    <td style="border-style: groove;">Polar bear, KFC</td>
+                </tr>
+                <tr>
+                    <td style="border-style: groove;">manga</td>
+                    <td style="border-style: groove;">Metri cool, Dolphin</td>
+                </tr>
+                <tr>
+                    <td style="border-style: groove;">Oasis </td>
+                    <td style="border-style: groove;">Dolphin, Loyal world</td>
+                </tr>
+                <tr>
+                    <td style="border-style: groove;">Fiesta</td>
+                    <td style="border-style: groove;"> Polar bear, Dominos, Chickpunch</td>
+                </tr>
+            </table><br>
+            <h3>Watch it-food for tought!</h3>
+            <video width="320" height="240" controls>
+                <source src="myvideo.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+              Your browser does not support the video tag.
+              </video>
 
-<form method="post" action="//submit.form" onSubmit="return validateForm();">
-<div style="max-width: 400px;">
-</div>
-<div style="padding-bottom: 18px;text-align: center;font-size : 24px;">Dine Bookings</div>
-<div style="padding-bottom: 18px;text-align: center;">Visitors Name
-<input type="text" id="data_3" name="data_3" style="max-width : 400px;" class="form-control"/>
-</div>
-<div style="padding-bottom: 18px;text-align: center;">Number of Members
-<select id="data_8" name="data_8" style="max-width : 250px;" class="form-control"><option>1</option>
-<option>2</option>
-<option>3</option>
-<option>4</option>
-<option>5</option>
-<option>6</option>
-<option>7</option>
-</select>
-</div>
-<div style="padding-bottom: 18px;text-align: center;">Contact Number
-<input type="text" id="data_4" name="data_4" style="max-width : 400px;" class="form-control"/>
-</div>
-<div style="padding-bottom: 18px;text-align: center;">Email
-<input type="text" id="data_5" name="data_5" style="max-width : 400px;" class="form-control"/>
-</div>
-<div style="padding-bottom: 18px;text-align: center;">Type of Food
-<span><input type="checkbox" id="data_10_0" name="data_10" value="South Indian"/> South Indian</span><br/>
-<span><input type="checkbox" id="data_10_1" name="data_10" value="North Indian"/> North Indian</span><br/>
-<span><input type="checkbox" id="data_10_2" name="data_10" value="Chinese"/> Chinese</span><br/>
-<span><input type="checkbox" id="data_10_3" name="data_10" value="Western"/> Western</span><br/>
-</div>
-<div style="padding-bottom: 18px;text-align: center;">Room Choice
-<span><input type="checkbox" id="data_11_0" name="data_11" value="AC"/> AC</span><br/>
-<span><input type="checkbox" id="data_11_1" name="data_11" value="Non AC"/> Non AC</span><br/>
-</div>
-<div style="padding-bottom: 18px;text-align: center;">Venue Prefernce
-<span><input type="checkbox" id="data_12_0" name="data_12" value="Arena"/> Arena</span><br/>
-<span><input type="checkbox" id="data_12_1" name="data_12" value="Fiesta"/> Fiesta</span><br/>
-<span><input type="checkbox" id="data_12_2" name="data_12" value="Vista"/> Vista</span><br/>
-<span><input type="checkbox" id="data_12_3" name="data_12" value="Mythri"/> Mythri</span><br/>
-<span><input type="checkbox" id="data_12_4" name="data_12" value="Magna"/> Magna</span><br/>
-<span><input type="checkbox" id="data_12_5" name="data_12" value="Oasis"/> Oasis</span><br/>
-<span><input type="checkbox" id="data_12_6" name="data_12" value="Amoeba"/> Amoeba</span><br/>
-</div>
-<div style="padding-bottom: 18px;text-align: center;"><input name="skip_Submit" value="Submit" type="submit"/></div>
-<div>
-<div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to email</a></div>
-<script src="https://www.100forms.com/js/FORMKEY:4T837BDYHLW9/SEND:my@email.com" type="text/javascript"></script>
-</div>
-</form>
-
-
-<script type="text/javascript">
-function validateForm() {
-if (isEmpty(document.getElementById('data_3').value.trim())) {
-alert('Visitors Name is required!');
-return false;
-}
-if (isEmpty(document.getElementById('data_4').value.trim())) {
-alert('Contact Number is required!');
-return false;
-}
-if (isEmpty(document.getElementById('data_5').value.trim())) {
-alert('Email is required!');
-return false;
-}
-if (!validateEmail(document.getElementById('data_5').value.trim())) {
-alert('Email must be a valid email address!');
-return false;
-}
-if (!document.getElementById('data_10_0').checked && !document.getElementById('data_10_1').checked && !document.getElementById('data_10_2').checked && !document.getElementById('data_10_3').checked ) {
-alert('Type of Food is required!');
-return false;}
-if (!document.getElementById('data_11_0').checked && !document.getElementById('data_11_1').checked ) {
-alert('Room Choice is required!');
-return false;}
-if (!document.getElementById('data_12_0').checked && !document.getElementById('data_12_1').checked && !document.getElementById('data_12_2').checked && !document.getElementById('data_12_3').checked && !document.getElementById('data_12_4').checked && !document.getElementById('data_12_5').checked && !document.getElementById('data_12_6').checked ) {
-alert('Venue Prefernce is required!');
-return false;}
-return true;
-}
-function isEmpty(str) { return (str.length === 0 || !str.trim()); }
-function validateEmail(email) {
-var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
-return isEmpty(email) || re.test(email);
-}
-</script>
+        </form>
+    </body>
+</html>
